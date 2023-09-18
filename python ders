@@ -1,0 +1,12 @@
+ogrenci = int(input("Okul Notunuz:"))
+
+if ogrenci >= 0 and ogrenci < 50:
+    print("Kaldınız!!!")
+elif ogrenci >= 50 and ogrenci < 70:
+    print("Teşekkür!!!")
+elif ogrenci >= 70 and ogrenci < 90:
+    print("Takdir!!!")
+elif ogrenci >= 90 and ogrenci <= 100:
+    print("Tebrikler, Onur belgesi aldınız!!!")
+else:
+    print("Geçersiz not girdiniz. Lütfen 0 ile 100 arasında bir not girin!!!")
